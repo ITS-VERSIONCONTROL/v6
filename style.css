@@ -1,0 +1,16 @@
+html {
+    line-height: 1.15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    background-color: white;
+}
+
+body {
+    margin: 5em;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0.67em 0;
+}
+
