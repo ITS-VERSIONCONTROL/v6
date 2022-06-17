@@ -120,7 +120,7 @@ Obiettivo dello sprint: nuove vesti grafiche e contenuti aggiornati
   - staccare da 'main' un release branch chiamato 'release/2.0'
   - effettuare la push su origin del nuovo release branch
 
-## Step 3 (3 punti)
+## Step 4 (3 punti)
 
 - riallineare il branch 'main' (git pull)
 - spostarsi sul proprio alternative branch e riallinearlo a main (git merge)
