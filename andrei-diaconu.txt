@@ -1,0 +1,23 @@
+nome : Andrei
+cognome : Diaconu
+fila n : 6 
+posizione n. : posizione-4
+
+1) git commit -m <commento>, staging area
+
+Il comando elencato qui sopra salverà tutti i cambiamenti avvenuti nello stage, e grazie al "-m <messaggio>" possiamo aggiungere a quest'operazione una breve descrizione di quello che è stato "committato".
+La staging area è una sezione, se cosi si puo chiamare, dove vengono inseriti file che stanno per essere committati, cioe è un' area dove indichera quali aggiunte o rimozioni sono state fatte ai file.
+Fa differenza dalla working area che è la sezione dove noi possiamo aggiungere rimuovere file e in questa sezione git non terra traccia di questi cambiamenti.
+
+2) git branch <nuovo branch>
+
+Il comando elencato qui sopra permette la creazione di un nuovo branch.
+I branch sono rami che si staccano dal "albero" principale dello sviluppo dell'applicazione. Nel processo di sviluppo, sono praticamente delle aree che si creano per poter implementeare nuove funzionalita all'appliczione.
+Ogni volta che si vogliono fare dei cambiamenti, sia del tipo di creazione di nuove funzionalita che di rimozione di bug, è necessario "creare una nuova area di lavoro" senza dover intaccare l'applicazione che sta al centro.
+La HEAD è il ramo su cui sto lavorando al momento. Quando si vogliono forkare i diversi branch si possono fare solo uno alla volta e il branch su cui non ci troviamo è quello dove abbiamo fatto le modifiche, si chiama HEAD
+perche è la testa cioe il ramo piu avanti. Quando si esegue il checkout si uniscono il ramo della feature con il main in modo che possano essere riallineati.
+
+3) remote repo, git branch -a
+
+I remote repositories sono versioni dei nostri progetti che sono tenute su internet o su qualche tipo di accesso remoto. 
+Il comando elencato qui sopra permette la visualizzazione in locale di tutti i branch remoti esistenti di quel determinato progetto a cui sto lavorando.
